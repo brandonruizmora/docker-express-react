@@ -52,6 +52,13 @@ Para empezar con el proyecto frontend se usara el comando _`yarn create vite`_ p
 
 ## 3. Verificar que las 2 aplicaciones se puedan comunicar.
 
+Para verificar que el frontend se pueda comunicar correctamente con el backend utilizaremos _fetch_. Dentro de App.jsx agregaremos una función que haga una petición al api local, cuando se haga clic a un botón, Si la petición se hace correctamente se mostrara un mensaje de alerta y el texto del botón cambiara a la respuesta del api.
+
+![10](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/10.png?raw=true)
+![11](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/11.png?raw=true)
+![12](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/12.png?raw=true)
+![13](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/13.png?raw=true)
+
 ## 4. Crear Dockerfile de las 2 aplicaciones
 ## 5. Crear docker-compose.yml
 ## 6. Ejecutar Servicios

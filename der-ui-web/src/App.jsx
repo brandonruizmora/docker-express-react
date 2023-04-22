@@ -5,6 +5,23 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [msg, setMsg] = useState("")
+
+  const consultApi = function () {
+    var requestOptions = {
+      method: 'GET',
+      redirect: 'follow'
+    };
+    
+    fetch("http://localhost:3000", requestOptions)
+      .then(response => response.text())
+      .then(result => {
+        console.log(result)
+        alert(result)
+        setMsg(result)
+      })
+      .catch(error => console.log('error', error));
+  }
 
   return (
     <>
@@ -20,6 +37,9 @@ function App() {
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+        <button onClick={consultApi}>
+          consultApi {msg === "" ? null : <b>{msg}</b>}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
