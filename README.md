@@ -35,7 +35,11 @@ Crear un espacio de trabajo de 2 aplicaciones node. Una aplicación backend en e
 
 Para empezar con el proyecto de express creamos la carpeta _der-api-web_. Dentro del directorio se usara el comando _`npm init`_ para inicializar el proyecto. Luego instalaremos express y cors, para poder iniciar nuestra api, esto lo haremos con el comando _`npm i express cors`_. Después podemos crear nuestro archivo **index.js** que correra nuestra aplicación. Para verificar que esta funcionando se usara el comando _`node index.js`_. Finalmente verificamos que nuestro backend se este ejecutando correctamente.
 
-![1](https://)
+![1](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/1.png?raw=true)
+![1](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/2.png?raw=true)
+![1](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/3.png?raw=true)
+![1](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/4.png?raw=true)
+![1](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/5.png?raw=true)
 
 ## 2. Crear aplicación frontend
 ## 3. Crear Dockerfile de las 2 aplicaciones
