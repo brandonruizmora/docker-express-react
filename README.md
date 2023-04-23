@@ -86,4 +86,21 @@ En la carpeta raiz de nuestros 2 proyectos creamos el archivo docker-compose.yml
 La versión de escritura, los servicios que se usaran, de donde se crearan las imagenes, que nombre tendran el contenedor creado, y que puertos se mapearan.
 
 ## 6. Ejecutar Servicios
+
+Para crear las imagenes correspondientes de nuestros proyectos, crear los contenedores, red para comunicarse entre contenedores utilizaremos el comando _`docker compose up`_.
+
+![17](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/17.png?raw=true)
+
+Ahora podemos revisar localhost:3000 para ver nuestro API
+
+![18](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/18.png?raw=true)
+
+También localhost:5173 para ver nuestra UI
+
+![19](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/19.png?raw=true)
+
 ## 7. Terminar servicios y borrar imágenes
+
+Para terminar podemos borrar los contenedores y red con el comando _`docker compose down`_. y borrar las imagenes con el comando _`docker image rm`_.
+
+![20](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/20.png?raw=true)
