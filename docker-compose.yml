@@ -1,0 +1,15 @@
+version: "3.1"
+
+services:
+
+  der-api-web:
+    build: /der-api-web
+    container_name: der-api-web
+    ports: 
+      - 3000:3000
+
+  der-ui-web:
+    build: /der-ui-web
+    container_name: der-ui-web
+    ports: 
+      - 5173:5173
