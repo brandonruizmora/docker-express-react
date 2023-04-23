@@ -69,6 +69,14 @@ Dentro de la aplicación der-api-web creamos el archivo Dockerfile con los sigui
 
 Indicamos la imagen base, creamos el directorio donde se guardara la aplicación, copeamos el contenido de nuestra aplicación local a el directorio creado, definimos el directorio de trabajo, hacemos la instalación de las dependencias, exponemos el puerto que se usara, y finalmente el comando para ejecutar nuestra aplicación.
 
+### Dockerfile UI
+
+Dentro de la aplicación der-api-web creamos el archivo Dockerfile con los siguiente elementos.
+
+![15](https://github.com/brandonruizmora/docker-express-react/blob/master/imgs/15.png?raw=true)
+
+Indicamos la imagen base, creamos el directorio donde se guardara la aplicación, copeamos el contenido de nuestra aplicación local a el directorio creado, definimos el directorio de trabajo, hacemos la instalación de las dependencias, exponemos el puerto que se usara, y finalmente el comando para ejecutar nuestra aplicación.
+
 ## 5. Crear docker-compose.yml
 ## 6. Ejecutar Servicios
 ## 7. Terminar servicios y borrar imágenes
